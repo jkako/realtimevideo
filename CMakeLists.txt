@@ -17,6 +17,6 @@ add_executable(
   helpers.cpp
 )
 
-target_link_libraries( respi 
+target_link_libraries( respi -lpthread
   ${OpenCV_LIBS} 
 )
